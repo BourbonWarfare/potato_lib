@@ -29,7 +29,7 @@ tests = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["plib*"]
+include = ["potlib*"]
 namespaces = false
 
 [tool.pytest.ini_options]
@@ -139,5 +139,5 @@ python = "./.venv"
 
 [tool.ty.src]
 include = [
-    "plib",
+    "potlib",
 ]
