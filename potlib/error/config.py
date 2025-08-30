@@ -1,4 +1,4 @@
-from plib.error.base import ServerError
+from potlib.error.base import ServerError
 
 
 class ConfigError(ServerError):

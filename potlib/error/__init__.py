@@ -6,3 +6,4 @@ from potlib.error.base import (
     NotFoundError as NotFoundError,
 )
 from potlib.error.config import *
+from potlib.error.arma import *
